@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 const SearchBar = () => {
@@ -10,7 +11,7 @@ const SearchBar = () => {
         type="text"
         placeholder="State, city or town"
         value={location}
-        onChange={(e) => setLocation(e.target.validationMessage)}
+        onChange={(e) => setLocation(e.target.value)}
       />
       <button
         className="rounded bg-red-600 px-9 py-2 text-white"
