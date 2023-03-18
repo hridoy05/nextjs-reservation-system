@@ -1,7 +1,11 @@
 import Link from "next/link";
-import React from "react";
+import { RestaurantCardType } from "../page";
 
-const RestaurantCard = () => {
+interface Props {
+  restaurant: RestaurantCardType;
+}
+
+const RestaurantCard = ({ restaurant }: Props) => {
   return (
     <div>
       <Link href="/restaurant/milestones-grill">
