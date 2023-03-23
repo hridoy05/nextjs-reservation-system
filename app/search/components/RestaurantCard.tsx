@@ -12,6 +12,7 @@ interface Restaurant {
   slug: string;
   location: Location;
 }
+console.log("render");
 
 const RestaurantCard = ({ restaurant }: { restaurant: Restaurant }) => {
   return (
