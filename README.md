@@ -13,7 +13,3 @@
   - Book a restaurant
   - Schedule system
   - Log in/sign up
-
-  - ![Home page](images/nextjs.jpg)
-
-  - ![Restaurant Page](images/nextjs2.jpg)
